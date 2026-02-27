@@ -1,0 +1,25 @@
+model,lset,prset
+GTR,nst=6,NA
+GTR+I,nst=6 rates=propinv,NA
+GTR+G,nst=6 rates=gamma,NA
+GTR+G+I,nst=6 rates=invgamma,NA
+SYM,nst=6,statefreqpr=fixed(equal)
+SYM+I,nst=6 rates=propinv,statefreqpr=fixed(equal)
+SYM+G,nst=6 rates=gamma,statefreqpr=fixed(equal)
+SYM+G+I,nst=6 rates=invgamma,statefreqpr=fixed(equal)
+K80,nst=2,statefreqpr=fixed(equal)
+K80+I,nst=2 rates=propinv,statefreqpr=fixed(equal)
+K80+G,nst=2 rates=gamma,statefreqpr=fixed(equal)
+K80+G+I,nst=2 rates=invgamma,statefreqpr=fixed(equal)
+HKY,nst=2,NA
+HKY+I,nst=2 rates=propinv,NA
+HKY+G,nst=2 rates=gamma,NA
+HKY+G+I,nst=2 rates=invgamma,NA
+F81,nst=1,NA
+F81+I,nst=1 rates=propinv,NA
+F81+G,nst=1 rates=gamma,NA
+F81+G+I,nst=1 rates=invgamma,NA
+JC,nst=1,statefreqpr=fixed(equal)
+JC+I,nst=1 rates=propinv,statefreqpr=fixed(equal)
+JC+G,nst=1 rates=gamma,statefreqpr=fixed(equal)
+JC+G+I,nst=1 rates=invgamma,statefreqpr=fixed(equal)
